@@ -1,0 +1,82 @@
+.top-section-content,
+.top-section-content .navbar {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0rem;
+}
+
+.top-section-content .navbar {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: var(--size-10) var(--size-30);
+    width: 64rem;
+}
+
+.logo img {
+    width: 9.6875rem;
+    height: 2.875rem;
+}
+
+.navbar .nav,
+.nav ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: .375rem var(--size-14);
+    gap: var(--size-30);
+}
+
+.nav ul {
+    align-items: flex-start;
+    padding: 0rem;
+    gap: var(--size-20);
+}
+
+.nav .nav-link:hover {
+    color: var(--font-color-link);
+}
+
+.nav-link a {
+    line-height: 1.0625rem;
+}
+
+.nav .button {
+    font-size: var(--size-12);
+    font-weight: 700;
+    line-height: .9375rem;
+}
+
+.hero-section,
+.hero-section .hero-left,
+.hero-left .title,
+.hero-left .actions {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: var(--size-40) var(--size-30) 0rem;
+    gap: var(--size-10);
+}
+
+.hero-section .hero-left,
+.hero-left .title {
+    flex-direction: column;
+    justify-content: center;
+    gap: var(--size-30);
+    padding: 0px 0px 3.75rem;
+    width: 29.8125rem;
+}
+
+.hero-left .title {
+    justify-content: unset;
+    padding: 0px;
+    gap: .6875rem;
+    width: 20.875rem;
+}
+
+.hero-left .actions {
+    align-items: center;
+    padding: 0px;
+    gap: 1.5rem;
+}

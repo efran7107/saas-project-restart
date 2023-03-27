@@ -16,10 +16,21 @@
     --size-150: 9.375rem;
 }
 
+body {
+    font-family: 'Open sans', sans-serif;
+}
+
 *,
  ::before,
  ::after {
     box-sizing: border-box;
+}
+
+h1 {
+    margin: 0rem;
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: var(--size-40);
 }
 
 ul {
@@ -39,6 +50,7 @@ a {
     font-size: var(--size-14);
     margin: 0rem;
     color: var(--font-color-dark);
+    line-height: 1.0625rem
 }
 
 .container {
@@ -49,7 +61,16 @@ a {
     margin-right: auto;
 }
 
+.learn-more {
+    color: var(--font-color-link);
+    font-weight: 700;
+}
+
 .button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: .5rem;
     padding: .9375rem 1.5625rem;
     border-radius: var(--size-30);
     background-color: var(--font-color-link);
