@@ -277,3 +277,64 @@
 .item-content .learn-more {
     line-height: 1.0625rem;
 }
+
+.banner-section .container,
+.container .banner-section-content,
+.banner-section-content .banner-left,
+.banner-left .title,
+.banner-left .actions {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px 30px 80px;
+    gap: 10px;
+}
+
+.container .banner-section-content,
+.banner-left .actions {
+    flex-direction: row;
+    padding: 0px;
+    gap: 10px;
+    width: 964px;
+    height: 470px;
+    background: #F8FAFE;
+}
+
+.container .banner-section-content {
+    align-items: unset;
+}
+
+.banner-section-content .banner-left {
+    justify-content: center;
+    padding: 10px 30px;
+    gap: 26px;
+    width: 450px;
+}
+
+.banner-left .title {
+    padding: 0px;
+    gap: 11px;
+}
+
+.banner-left .actions {
+    align-items: center;
+    padding: 0px;
+    gap: 24px;
+    width: 390px;
+    height: 48px;
+}
+
+.banner-section-content .banner-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding: 0px;
+    gap: 10px;
+    width: 504px;
+}
+
+.banner-section-content .banner-right img {
+    width: 504px;
+    height: 353px;
+}
