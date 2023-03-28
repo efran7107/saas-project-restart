@@ -703,3 +703,93 @@
 .plan-row-2 .plan-feature-item:nth-child(1) .top-part .plan-title {
     align-items: center;
 }
+
+.hire-us-scn .container,
+.hire-lt,
+.hire-rt,
+.hire-tp,
+.hire-bm,
+.hire-us-titl,
+.titl,
+.hire-phrs {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0rem;
+    background: #20335B;
+}
+
+.hire-lt,
+.hire-rt,
+.hire-tp,
+.hire-bm,
+.hire-us-titl,
+.titl,
+.hire-phrs {
+    flex-direction: column;
+    justify-content: center;
+    padding: 0rem 0rem 0rem 4.375rem;
+    gap: 3.75rem;
+}
+
+.hire-rt,
+.hire-tp,
+.hire-bm,
+.titl,
+.hire-phrs {
+    justify-content: unset;
+    padding: var(--size-30);
+    gap: var(--size-10);
+}
+
+.hire-tp,
+.hire-bm,
+.hire-us-titl,
+.hire-phrs {
+    padding: 0rem;
+    gap: 2rem;
+}
+
+.hire-tp {
+    width: 363px;
+}
+
+.hire-lt,
+.hire-rt {
+    height: 44.25rem;
+}
+
+.hire-bm {
+    gap: var(--size-50);
+}
+
+.hire-us-titl {
+    gap: 2.125rem;
+    width: 180px;
+}
+
+.titl {
+    padding: 0rem;
+    color: var(--white);
+}
+
+.titl p {
+    font-size: var(--size-16);
+    line-height: 1.5rem;
+}
+
+.hire-div {
+    width: 11.25rem;
+    height: .0625rem;
+    background: var(--white);
+}
+
+.hire-phrs {
+    gap: 0rem;
+}
+
+.hire-phrs p {
+    color: var(--white);
+    font-size: var(--size-16);
+    line-height: 1.5rem;
+}
