@@ -450,3 +450,33 @@
     left: 0rem;
     top: 0rem;
 }
+
+.hubspot .container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0rem;
+    gap: 3.75rem;
+}
+
+.hub-left {
+    position: relative;
+    width: 28.25rem;
+    height: 35rem;
+}
+
+.hub-left img:nth-child(1),
+.hub-left img:nth-child(2){
+    position: absolute;
+    width: 23.1875rem;
+    height: 26.5625rem;
+    left: 5.0625rem;
+    top: 0rem;
+}
+
+.hub-left img:nth-child(2) {
+    width: 12.5rem;
+    left: 1.75rem;
+    top: 6.9375rem;
+    z-index: -1;
+}
