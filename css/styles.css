@@ -384,7 +384,7 @@
 .top:after {
     display: block;
     content: "";
-    width: 90.5px;
+    width: 90.5008px;
     height: 1px;
     background: #E6E9F2;
 }
@@ -718,6 +718,7 @@
     align-items: flex-start;
     padding: 0rem;
     background: #20335B;
+    justify-content: space-between
 }
 
 .hire-lt,
@@ -839,6 +840,10 @@
     height: 40.5rem;
 }
 
+.hire-rt .form {
+    width: 454.5px;
+}
+
 .form .form-data {
     align-items: flex-start;
     padding: 0rem;
@@ -890,4 +895,56 @@
 .form-group select {
     justify-content: space-between;
     padding: 10px 16px 10px 10px;
+}
+
+.checkbox #agree,
+.checkbox {
+    width: 25px;
+}
+
+.checkbox {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 4px 0px 0px;
+    gap: 10px;
+    height: 28px;
+}
+
+.checkbox #agree {
+    height: 24px;
+    border: 1px solid #E6E8F2;
+    border-radius: 3px;
+}
+
+.agree .label,
+.agree .private-policy {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0rem;
+    gap: .625rem;
+}
+
+.agree .label label {
+    font-weight: 510;
+    font-size: 14px;
+    line-height: 22px;
+    color: #828282;
+}
+
+.agree .private-policy {
+    flex-direction: row;
+    gap: 1.75rem;
+}
+
+.agree .private-policy a {
+    font-weight: 700;
+    line-height: 22px;
+    border-bottom: 1px dashed #677788;
+}
+
+.agree .private-policy a:hover {
+    color: var(--font-color-link);
+    border-bottom: 1px dashed #2476FF;
 }
