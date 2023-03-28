@@ -413,3 +413,17 @@
     background: #0066FF;
     border-radius: .1875rem;
 }
+
+.banner-play-section .container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px var(--size-30) 5rem;
+    gap: var(--size-10);
+}
+
+.banner-play-section .banner-frame {
+    position: relative;
+    width: 60.25rem;
+    height: 31.0625rem;
+}
