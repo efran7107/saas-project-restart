@@ -1034,3 +1034,9 @@
 .resource-list ul li i {
     color: var(--font-color-dark);
 }
+
+.footer-div {
+    width: 60.375rem;
+    height: .0625rem;
+    background: #e6e9f2;
+}
