@@ -414,7 +414,8 @@
     border-radius: .1875rem;
 }
 
-.banner-play-section .container {
+.banner-play-section .container,
+.banner-frame .play-button {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -426,4 +427,26 @@
     position: relative;
     width: 60.25rem;
     height: 31.0625rem;
+}
+
+.banner-frame .play-button {
+    justify-content: center;
+    align-items: center;
+    padding: var(--size-10) 0px var(--size-10) .25rem;
+    gap: .625rem;
+    position: absolute;
+    width: 4.375rem;
+    height: 4.375rem;
+    left: 27.9375rem;
+    top: 10.75rem;
+    background: var(--white);
+    box-shadow: 0px 0px var(--size-10) rgba(0, 0, 0, 0.25);
+    border-radius: 2.1875rem;
+}
+
+.banner-frame img {
+    width: 60.25rem;
+    height: 25.875rem;
+    left: 0rem;
+    top: 0rem;
 }
