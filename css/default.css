@@ -48,9 +48,11 @@ h2 {
 h3,
 h6 {
     margin: 0rem;
+    font-family: 'Inter', sans-serif;
 }
 
 h4 {
+    font-family: 'Inter', sans-serif;
     margin: 0rem;
 }
 
