@@ -826,3 +826,68 @@
     height: 3.75rem;
     border-radius: var(--size-30);
 }
+
+.hire-rt .form,
+.form .form-data {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: var(--size-30);
+    gap: 2.3125rem;
+    background: var(--white);
+    border-radius: var(--size-10);
+    height: 40.5rem;
+}
+
+.form .form-data {
+    align-items: flex-start;
+    padding: 0rem;
+    gap: var(--size-20);
+}
+
+.form-data h6 {
+    line-height: 1.5rem;
+}
+
+.form-group,
+.text-area,
+.agree {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0rem;
+    gap: var(--size-20);
+}
+
+.agree {
+    gap: var(--size-16);
+}
+
+.text-area {
+    padding: var(--size-10);
+    gap: var(--size-10);
+    border: 1px solid #E6E8F2;
+    width: 24.5rem;
+    height: 9.375rem;
+}
+
+.form-group select,
+.form-group input {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 10px;
+    width: 186px;
+    height: 44px;
+    border: 1px solid #E6E8F2;
+    border-radius: 5px
+}
+
+.form-group input {
+    padding: 10px;
+}
+
+.form-group select {
+    justify-content: space-between;
+    padding: 10px 16px 10px 10px;
+}
