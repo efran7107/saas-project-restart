@@ -519,7 +519,8 @@
 }
 
 .brand-section .container,
-.brand-section .why-front-title {
+.brand-section .why-front-title,
+.brand-section .brand-list {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -539,4 +540,15 @@
     line-height: 1.5rem;
     text-align: center;
     color: #5F6368;
+}
+
+.brand-section .brand-list {
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px var(--size-30);
+    gap: 6.25rem;
+}
+
+.brand-section .brand-list img {
+    height: 2.5rem;
 }
