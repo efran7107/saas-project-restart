@@ -876,6 +876,14 @@
     height: 9.375rem;
 }
 
+.text-area::placeholder {
+    font-family: 'Open sans', sans-serif;
+    font-weight: 510;
+    font-size: 14px;
+    line-height: 22px;
+    color: #828282;
+}
+
 .form-group select,
 .form-group input {
     display: flex;
@@ -1031,6 +1039,10 @@
     color: var(--white);
 }
 
+.resource-list:nth-child(1) ul li:nth-child(2) a:nth-child(2):hover {
+    color: var(--white);
+}
+
 .resource-list ul li i {
     color: var(--font-color-dark);
 }
@@ -1039,4 +1051,87 @@
     width: 60.375rem;
     height: .0625rem;
     background: #e6e9f2;
+}
+
+.footer-main .bottom-footer,
+.bottom-footer .social-links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0rem;
+    gap: var(--size-40);
+}
+
+.bottom-footer .social-links {
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 13.25rem;
+    width: 60.375rem;
+}
+
+.social-links .site-map,
+.social-links .social-list {
+    display: flex;
+    flex-direction: row;
+    padding: 0px;
+}
+
+.social-links .site-map {
+    align-items: flex-start;
+    gap: 6px;
+}
+
+.site-map a:hover {
+    color: var(--font-color-link);
+}
+
+.social-links .social-list {
+    align-items: flex-end;
+    gap: 20px;
+}
+
+.social,
+#country-footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 4px;
+    gap: 10px;
+    width: 30px;
+    height: 30px;
+    background: #ECF2FF;
+    border-radius: 5px;
+}
+
+#country-footer {
+    padding: 5px 13px;
+    gap: 20px;
+    width: 168px;
+    text-align-last:center;
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: 400;
+}
+
+.social-list .social:hover,
+.social-list #country:hover {
+    color: #ECF2FF;
+    background-color: var(--font-color-dark);
+}
+
+.all-rights {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0rem;
+    gap: 1.3125rem;
+}
+
+.all-rights p:nth-child(2) {
+    line-height: 1.375rem;
+    text-align: center;
+    width: 43.75rem;
+    font-weight: 510;
 }
