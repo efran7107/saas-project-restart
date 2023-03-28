@@ -948,3 +948,27 @@
     color: var(--font-color-link);
     border-bottom: 1px dashed #2476FF;
 }
+
+.footer-main .container,
+.footer-main .top-footer,
+.top-footer .company-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 5rem var(--size-30) var(--size-40);
+    gap: var(--size-40);
+}
+
+.footer-main .top-footer {
+    flex-direction: row;
+    padding: 0px;
+}
+
+.top-footer .company-info {
+    padding: 0rem;
+    gap: var(--size-20);
+}
+
+.top-footer .company-info img {
+    width: var(--size-100);
+}
