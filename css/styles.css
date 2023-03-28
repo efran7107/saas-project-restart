@@ -517,3 +517,26 @@
     padding: 0px var(--size-20) var(--size-100) 0rem;
     gap: .25rem;
 }
+
+.brand-section .container,
+.brand-section .why-front-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 0px 5rem;
+    gap: 2.8125rem;
+}
+
+.brand-section .why-front-title {
+    padding: 0rem;
+    gap: .625rem;
+}
+
+.brand-section .why-front-title h4 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: var(--size-20);
+    line-height: 1.5rem;
+    text-align: center;
+    color: #5F6368;
+}
