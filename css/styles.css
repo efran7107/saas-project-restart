@@ -384,7 +384,7 @@
 .top:after {
     display: block;
     content: "";
-    width: 90.5px;
+    width: 90.5008px;
     height: 1px;
     background: #E6E9F2;
 }
@@ -711,12 +711,14 @@
 .hire-bm,
 .hire-us-titl,
 .titl,
-.hire-phrs {
+.hire-phrs,
+.hire-person .person {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
     padding: 0rem;
     background: #20335B;
+    justify-content: space-between
 }
 
 .hire-lt,
@@ -725,7 +727,8 @@
 .hire-bm,
 .hire-us-titl,
 .titl,
-.hire-phrs {
+.hire-phrs,
+.hire-person .person {
     flex-direction: column;
     justify-content: center;
     padding: 0rem 0rem 0rem 4.375rem;
@@ -792,4 +795,156 @@
     color: var(--white);
     font-size: var(--size-16);
     line-height: 1.5rem;
+}
+
+.hire-person .person {
+    padding: 0rem var(--size-20) 0rem 0rem;
+    gap: .25rem;
+}
+
+.hire-bm .person h6 {
+    font-size: var(--size-18);
+    line-height: 1.375rem;
+    color: var(--white);
+}
+
+.hire-bm .person-images {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0rem;
+    gap: var(--size-30);
+}
+
+.hire-bm .person-images img {
+    width: var(--size-40);
+    height: var(--size-40);
+    border-radius: var(--size-20);
+}
+
+.hire-bm .person-images img:nth-child(3) {
+    width: 3.75rem;
+    height: 3.75rem;
+    border-radius: var(--size-30);
+}
+
+.hire-rt .form,
+.form .form-data {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: var(--size-30);
+    gap: 2.3125rem;
+    background: var(--white);
+    border-radius: var(--size-10);
+    height: 40.5rem;
+}
+
+.hire-rt .form {
+    width: 454.5px;
+}
+
+.form .form-data {
+    align-items: flex-start;
+    padding: 0rem;
+    gap: var(--size-20);
+}
+
+.form-data h6 {
+    line-height: 1.5rem;
+}
+
+.form-group,
+.text-area,
+.agree {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0rem;
+    gap: var(--size-20);
+}
+
+.agree {
+    gap: var(--size-16);
+}
+
+.text-area {
+    padding: var(--size-10);
+    gap: var(--size-10);
+    border: 1px solid #E6E8F2;
+    width: 24.5rem;
+    height: 9.375rem;
+}
+
+.form-group select,
+.form-group input {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 10px;
+    width: 186px;
+    height: 44px;
+    border: 1px solid #E6E8F2;
+    border-radius: 5px
+}
+
+.form-group input {
+    padding: 10px;
+}
+
+.form-group select {
+    justify-content: space-between;
+    padding: 10px 16px 10px 10px;
+}
+
+.checkbox #agree,
+.checkbox {
+    width: 25px;
+}
+
+.checkbox {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 4px 0px 0px;
+    gap: 10px;
+    height: 28px;
+}
+
+.checkbox #agree {
+    height: 24px;
+    border: 1px solid #E6E8F2;
+    border-radius: 3px;
+}
+
+.agree .label,
+.agree .private-policy {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0rem;
+    gap: .625rem;
+}
+
+.agree .label label {
+    font-weight: 510;
+    font-size: 14px;
+    line-height: 22px;
+    color: #828282;
+}
+
+.agree .private-policy {
+    flex-direction: row;
+    gap: 1.75rem;
+}
+
+.agree .private-policy a {
+    font-weight: 700;
+    line-height: 22px;
+    border-bottom: 1px dashed #677788;
+}
+
+.agree .private-policy a:hover {
+    color: var(--font-color-link);
+    border-bottom: 1px dashed #2476FF;
 }

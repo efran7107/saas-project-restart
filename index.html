@@ -346,11 +346,40 @@
                 <form action="#" class="form">
                     <div class="form-data">
                         <h6>Fill out the form and we will be in touch as soon as possible</h6>
-                        <div class="form-group"></div>
-                        <div class="form-group"></div>
-                        <div class="form-group"></div>
+                        <div class="form-group">
+                            <input type="text" name="first-name" id="first-name" placeholder="First name">
+                            <input type="text" name="last-name" id="last-name" placeholder="Last name">
+                        </div>
+                        <div class="form-group">
+                            <input type="text" name="first-name" id="first-name" placeholder="First name">
+                            <input type="text" name="last-name" id="last-name" placeholder="Last name">
+                        </div>
+                        <div class="form-group">
+                            <select name="budget" id="budget" class="budget">
+                                <option value="budget" disabled="true" selected="true">Budget</option>
+                                <option value="0-100">$0-$100</option>
+                                <option value="100-1000">$100-$1000</option>
+                                <option value="1000-10000">$1000-$10000</option>
+                            </select>
+                            <select name="country" id="country" class="country">
+                                <option value="country" disabled="true" selected="true">Country</option>
+                                <option value="US">United States</option>
+                                <option value="Can">Canada</option>
+                            </select>
+                        </div>
                         <textarea name="tell-us-more" id="tell-us" cols="30" rows="10" class="text-area" placeholder="Tell us more about your project, needs, and timeline, please..."></textarea>
-                        <div class="agree"></div>
+                        <div class="agree">
+                            <div class="checkbox">
+                                <input type="checkbox" name="agree" id="agree">
+                            </div>
+                            <div class="label">
+                                <label for="agree">Yes,I'd line to receive occasional marketing emails from Front. I have the right to opt out at any time.</label>
+                                <div class="private-policy">
+                                    <a href="#">Vew privacy policy</a>
+                                    <a href="#">Vew privacy policy</a>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                     <div class="form-actions">
                         <a class="button">Get Started</a>
