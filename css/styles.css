@@ -605,6 +605,7 @@
 
 .plans-feature-list .plan {
     width: 23.125rem;
+    align-self: stretch;
 }
 
 .plan .plan-header {
@@ -660,7 +661,12 @@
 }
 
 .plans-feature-lists .plan-features,
-.plan-features .plan-row-1 {
+.plan-features .plan-row-1,
+.plan-features .plan-row-2,
+.plan-feature-item,
+.plan-feature-item .item-content,
+.plan-row-2 .plan-feature-item:nth-child(1) .top-part,
+.plan-row-2 .plan-feature-item:nth-child(1) .top-part .plan-title {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -668,7 +674,32 @@
     gap: var(--size-10);
 }
 
-.plan-features .plan-row-1 {
+.plan-features .plan-row-1,
+.plan-features .plan-row-2,
+.plan-row-2 .plan-feature-item:nth-child(1) .top-part .plan-title {
     flex-direction: row;
-    gap: var(--size-10);
+}
+
+.plan-feature-item {
+    padding: var(--size-20);
+    gap: var(--size-20);
+    width: 16.4375rem;
+}
+
+.plan-feature-item .item-content,
+.plan-row-2 .plan-feature-item:nth-child(1) .top-part {
+    gap: var(--size-20);
+}
+
+.plan-title h6 {
+    font-size: var(--size-18);
+    line-height: 1.375rem;
+}
+
+.plan-feature-item .item-content p {
+    line-height: 1.375rem;
+}
+
+.plan-row-2 .plan-feature-item:nth-child(1) .top-part .plan-title {
+    align-items: center;
 }
