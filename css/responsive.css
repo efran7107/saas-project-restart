@@ -2,6 +2,11 @@
     .container{
         max-width: 48rem;
     }
+
+    .header .container {
+        height: 46.875rem;
+    }
+
     [aria-controls="navbarDropdown"] {
         display: block;
     }
@@ -26,6 +31,7 @@
         padding: 5.375rem .375rem .875rem;
         gap: 4.5625rem;
         background: var(--white);
+        z-index: 1;
     }
     [aria-expanded="true"]~.navbar .nav ul li a {
         margin-right: var(--size-20);
@@ -106,5 +112,30 @@
 
     .top-section-background .bottom-border{
         border-left: 768px solid transparent;
+    }
+
+    .key-benefits-section .container {
+        padding: 5rem 0rem;
+    }
+
+    .key-benefits-section .benefit-list {
+        flex-direction: column;
+        height: 35.875rem;
+    }
+
+    .benefit-list .benefit-row {
+        padding: 0rem;
+        width: 44.25rem;
+        height: 16.375rem;
+    }
+
+    .benefit-row .benefits-item {
+        height: 242px;
+        width: 21.1875rem;
+    }
+
+    .benefits-item .item-content {
+        width: 18.6875rem;
+        height: 13.875rem;
     }
 }
