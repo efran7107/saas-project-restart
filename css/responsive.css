@@ -138,4 +138,24 @@
         width: 18.6875rem;
         height: 13.875rem;
     }
+
+    .container .banner-section-content,
+    .banner-section-content .banner-left,
+    .banner-section-content .banner-right,
+    .banner-section-content .banner-right img{
+        width: 708px;
+    }
+
+    .container .banner-section-content {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .banner-left .title {
+        text-align: center;
+    }
+
+    .banner-left .actions {
+        justify-content: end;
+    }
 }
