@@ -171,9 +171,14 @@
         width: 175px;
     }
 
-    .bullet:nth-child(3) .top .title .h6 {
+    .title h6,
+    .bullet:nth-child(3) .title h6 {
         font-weight: 500;
+    }
+
+    .bullet:nth-child(3) .title h6 {
         letter-spacing: -0.0625rem;
+
     }
 
     .bullet .top {
