@@ -1,10 +1,10 @@
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 48rem) {
     .container{
-        max-width: 48rem;
+        max-width: 768px;
     }
 
     .header .container {
-        height: 46.875rem;
+        height: 750px;
     }
 
     [aria-controls="navbarDropdown"] {
@@ -15,21 +15,21 @@
     }
     [aria-expanded="true"]~.navbar {
         background-color: var(--white);
-        border-bottom: .0625rem solid #677788;
-        width: 768px;
-        height: 86px;
+        border-bottom: 1px solid #677788;
+        width: 48rem;
+        height: 5.375rem;
     }
     [aria-expanded="true"]~.navbar .nav {
         position: absolute;
-        top: 5.375rem;
-        left: 0rem;
-        width: 48rem;
-        height: 42.5625rem;
+        top: 86px;
+        left: 0px;
+        width: 768px;
+        height: 681px;
         display: flex;
         flex-direction: column;
         align-items: center;
-        padding: 5.375rem .375rem .875rem;
-        gap: 4.5625rem;
+        padding: 86px 6px 14px;
+        gap: 73px;
         background: var(--white);
         z-index: 1;
     }
@@ -39,13 +39,13 @@
     } 
     
     .top-section-content .navbar {
-        width: 48rem;
+        width: 768px;
     }
 
     
     .hero-section .hero-left,
     .hero-section .hero-right {
-        width: 44.5rem;
+        width: 712px;
     }
 
     .top-section-content .hero-section{
@@ -61,89 +61,89 @@
         text-align: center;
     }
     .asana {
-        left: 533px;
-        top: 0px;
+        left: 33.3125rem;
+        top: 0rem;
     }
     
     .calendar {
-        left: 517px;
-        top: 229px;
+        left: 32.3125rem;
+        top: 14.3125rem;
     }
     
     .weave {
-        left: 414px;
-        top: 99px;
+        left: 25.875rem;
+        top: 6.1875rem;
     }
     
     .paypal {
-        left: 112px;
-        top: 99px;
+        left: 7rem;
+        top: 6.1875rem;
     }
     
     .atlassian {
-        left: 287px;
-        top: 0px;
+        left: 17.9375rem;
+        top: 0rem;
     }
     
     .google-ads {
-        left: 230px;
-        top: 209px;
+        left: 14.375rem;
+        top: 13.0625rem;
     }
     
     .google {
-        left: 110px;
-        top: 0px;
+        left: 6.875rem;
+        top: 0rem;
     }
 
     .top-section-background,
     .top-section-background .background-gradient {
-        width: 768px;
+        width: 48rem;
     }
 
     .top-section-background .background-gradient {
-        border-right: 100px solid #E1E7EF;
+        border-right: 6.25rem solid #E1E7EF;
     }
 
     .top-section-background .right-border {
-        right: 6.25rem;
-        border-right: 130px solid #e1e7ef;
-        border-top: 444px solid transparent;
+        right: 100px;
+        border-right: 8.125rem solid #e1e7ef;
+        border-top: 27.75rem solid transparent;
     }
 
     .top-section-background .bottom-border{
-        border-left: 768px solid transparent;
+        border-left: 48rem solid transparent;
     }
 
     .key-benefits-section .container {
-        padding: 5rem 0rem;
+        padding: 80px 0px;
     }
 
     .key-benefits-section .benefit-list {
         flex-direction: column;
-        height: 35.875rem;
+        height: 574px;
     }
 
     .benefit-list .benefit-row {
-        padding: 0rem;
-        width: 44.25rem;
-        height: 16.375rem;
+        padding: 0px;
+        width: 708px;
+        height: 262px;
     }
 
     .benefit-row .benefits-item {
-        height: 242px;
-        width: 21.1875rem;
+        height: 15.125rem;
+        width: 339px;
     }
 
     .benefits-item .item-content {
-        width: 18.6875rem;
-        height: 13.875rem;
+        width: 299px;
+        height: 222px;
     }
 
     .container .banner-section-content,
     .banner-section-content .banner-left,
     .banner-section-content .banner-right,
     .banner-section-content .banner-right img{
-        width: 708px;
+        width: 44.25rem;
     }
 
     .container .banner-section-content {
@@ -157,5 +157,51 @@
 
     .banner-left .actions {
         justify-content: end;
+    }
+
+    .why-front .why-front-title {
+        width: 600px;
+    }
+
+    .why-front .bullet-list {
+        width: 768px;
+    }
+
+    .bullet-list .bullet {
+        width: 175px;
+    }
+
+    .bullet:nth-child(3) .top .title .h6 {
+        font-weight: 500;
+        letter-spacing: -0.0625rem;
+    }
+
+    .bullet .top {
+        width: 10.9375rem;
+    }
+
+    .top:before,
+    .top:after {
+        width: 3.6563rem;
+    }
+
+    .first:before .last:after {
+        display: none;
+        content: none;
+    }
+
+    .banner-play-section .banner-frame {
+        width: 768px;
+        height: 364px;
+    }
+
+    .banner-play-section .play-button {
+        left: 19.9375rem;
+        top: 7.8125rem;
+    }
+
+    .banner-play-section img {
+        width: 44.25rem;
+        height: 19rem;
     }
 }
