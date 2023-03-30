@@ -195,6 +195,10 @@
         content: none;
     }
 
+    .banner-play-section .container {
+        height: 22.75rem;
+    }
+
     .banner-play-section .banner-frame {
         width: 768px;
         height: 364px;
@@ -209,4 +213,43 @@
         width: 44.25rem;
         height: 19rem;
     }
+
+    .hubspot .container {
+        flex-direction: column;
+        padding: 0px 0px 2.5rem;
+        align-items: center;
+    }
+
+    .hubspot .hub-right {
+        padding: 0rem;
+        align-items: center;
+        width: 48rem;
+        height: 15.75rem;
+    }
+
+    .hub-right .description {
+        align-items: center;
+        justify-content: center;
+        width: 37.5rem;
+    }
+
+    .hub-right .description p {
+        text-align: center;
+    }
+
+    .brand-section .container {
+        padding: var(--size-40) 0rem;
+        height: 13rem;
+    }
+
+    .brand-section .brand-list {
+        width: 48rem;
+        height: 3.6875rem;
+    }
+
+    .brand-section .brand-list img {
+        width: 3.875rem;
+        height: 1.6875rem;
+    }
+
 }
