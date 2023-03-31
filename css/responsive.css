@@ -39,7 +39,7 @@
     } 
     
     .top-section-content .navbar {
-        width: 768px;
+        width: 708px;
     }
 
     
@@ -50,6 +50,8 @@
 
     .top-section-content .hero-section{
         flex-direction: column;
+        width: 44.25rem;
+        height: 41.5rem;
     }
 
     .hero-section .hero-left {
@@ -101,11 +103,11 @@
     }
 
     .top-section-background .background-gradient {
-        border-right: 6.25rem solid #E1E7EF;
+        border-right: 5.625rem solid #E1E7EF;
     }
 
     .top-section-background .right-border {
-        right: 100px;
+        right: 5.625rem;
         border-right: 8.125rem solid #e1e7ef;
         border-top: 27.75rem solid transparent;
     }
@@ -197,10 +199,11 @@
 
     .banner-play-section .container {
         height: 22.75rem;
+        width: 44.25rem;
     }
 
     .banner-play-section .banner-frame {
-        width: 768px;
+        width: 708px;
         height: 364px;
     }
 
@@ -330,6 +333,29 @@
 
     .form-data .text-area {
         width: 40.5rem;
+    }
+
+    .top-footer .company-resources {
+        flex-direction: column;
+    }
+
+    .company-resources .resource-top {
+        gap: 5rem;
+        width: 26.0625rem;
+    } 
+
+    .company-resources .resource-bottom {
+        width: 19rem;
+    }
+
+    .footer-main .footer-div{
+        width: 44.25rem;
+    }
+
+    .bottom-footer .social-links {
+        width: 44.25rem;
+        gap: 5rem;
+        height: var(--size-30);
     }
 
 }

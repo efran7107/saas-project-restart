@@ -1036,6 +1036,12 @@
     color: var(--font-color-link) ;
 }
 
+.resource-top,
+.resource-bottom {
+    display: flex;
+    gap: 3.0625rem;
+}
+
 .top-footer .company-resources {
     gap: 3.0625rem;
     
@@ -1047,8 +1053,8 @@
     line-height: 1.3125rem;
 }
 
-.resource-list:nth-child(1) ul li:nth-child(2),
-.resource-list:nth-child(4) ul li {
+.resource-top .resource-list:nth-child(1) ul li:nth-child(2),
+.resource-bottom .resource-list:nth-child(2) ul li {
     display: flex;
     flex-direction: row;
     align-items: center;
