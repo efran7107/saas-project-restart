@@ -293,4 +293,43 @@
         width: 20.9375rem;
     }
 
+    .hire-us-scn .container {
+        flex-direction: column;
+        height: 57.75rem;
+    }
+
+    .hire-us-scn .hire-lt {
+        flex-direction: row;
+        align-items: center;
+        padding: var(--size-40)  var(--size-30) var(--size-20);
+        width: 48rem;
+    }
+
+    .hire-lt .hire-tp,
+    .hire-us-titl .titl,
+    .hire-us-titl .div {
+        width: 24.75rem;
+    }
+
+    .hire-us-titl .titl {
+        justify-content: center;
+    }
+
+    .hire-lt .hire-bm {
+        gap: var(--size-30);
+    }
+
+    .hire-rt .form {
+        width: 44.25rem;
+    }
+
+    .form-group input,
+    .form-group select {
+        width: 19.625rem;
+    }
+
+    .form-data .text-area {
+        width: 40.5rem;
+    }
+
 }
