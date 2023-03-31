@@ -252,4 +252,45 @@
         height: 1.6875rem;
     }
 
+    .pricing-section .container,
+    .pricing-section .pricing-title {
+        width: 48rem;
+    }
+
+    .pricing-section .container {
+        padding: 0rem 0rem 3.75rem;
+    }
+
+    .pricing-section .plans-feature-list {
+        flex-direction: column;
+    }
+
+    .plans-feature-list .plan{
+        width: 42.5rem;
+        align-items: center;
+    }
+
+    .plan .plan-header,
+    .plan .plan-divider {
+        width: 37.5rem;
+    }
+
+    .plan .plan-header {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .plans-feature-list .plan-features {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0px;
+        gap: var(--size-10);
+        width: 680px;
+    }
+
+    .plan-features .plan-feature-item {
+        width: 20.9375rem;
+    }
+
 }
