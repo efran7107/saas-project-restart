@@ -23,10 +23,9 @@
     pointer-events: none;
 }
 
-[aria-controls="navbarDropdown"] {
+[aria-controls="navbarDropdown"]{
     display: none;
 }
-
 
 .top-section-content .navbar {
     flex-direction: row;
@@ -69,6 +68,10 @@
     font-weight: 700;
     line-height: 15px;
 }
+/* 
+.navbar .header-divider {
+    display: none;
+} */
 
 .hero-section,
 .hero-section .hero-left,
