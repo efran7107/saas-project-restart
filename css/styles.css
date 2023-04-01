@@ -11,10 +11,6 @@
 }
 
 .navbar-toggler {
-    display: block;
-    position: absolute;
-    right: var(--size-20);
-    top: var(--size-10);
     outline: none;
     background-color: transparent;
     border: 1px solid transparent;
