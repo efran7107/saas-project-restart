@@ -309,4 +309,77 @@
         max-width: 22.5rem;
         position: relative;
     }
+    .header .container {
+        height: 44.0625rem;
+    }
+    .container .top-section-content,
+    .top-section-content .navbar,
+    .top-section-content .hero-section {
+        width: 20.625rem;
+    }
+    [aria-expanded="true"]~.nav {
+        width: 21.5625rem;
+    }
+    [aria-expanded="true"]~.nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+    [aria-expanded="true"]~.header-divider {
+        width: 22.5rem;
+    }
+    .top-section-content .hero-section {
+        padding: 2.5rem 1rem 0rem;
+    }
+    .hero-section .hero-left,
+    .hero-section .hero-right {
+        width: 18.625rem;
+    }
+    .hero-left .title {
+        width: 18.6875rem;
+        text-align: center;
+    }
+    .hero-left .title h1 {
+        font-size: 1.625rem;
+    }
+    .asana {
+        left: 240px;
+    }
+    .calendar {
+        left: 14.9375rem;
+        top: 13.6875rem;
+    }
+    .weave {
+        left: 184px;
+    }
+    .paypal {
+        left: 0px;
+        top: 99px;
+    }
+    .atlassian {
+        left: 114px;
+        top: 0px;
+    }
+    .google-ads {
+        left: 106px;
+        top: 209px;
+    }
+    .google {
+        left: 0px
+    }
+    .top-section-background {
+        width: 360px;
+    }
+    .top-section-background .background-gradient {
+        width: 360px;
+        border-right: 56px solid #E1E7EF;
+    }
+    .top-section-background .right-border {
+        right: 56px;
+        border-top: 458px solid transparent;
+        border-right: 45px solid #e1e7ef;
+    }
+    .top-section-background .bottom-border {
+        border-left: 360px solid transparent;
+        border-bottom: 89px solid var(--white);
+    }
 }
