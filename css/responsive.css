@@ -382,4 +382,59 @@
         border-left: 360px solid transparent;
         border-bottom: 89px solid var(--white);
     }
+    .key-benefits-section .container {
+        height: 1367px;
+        gap: 40px;
+        padding: 40px 0px;
+    }
+    .benefits-title {
+        text-align: center;
+    }
+    .benefits-title p,
+    .benefit-row .benefits-item {
+        width: 328px;
+    }
+    .benefit-row .benefits-item {
+        height: 16.375rem;
+    }
+    .key-benefits-section .benefit-list {
+        width: 360px;
+        height: 1158px;
+        padding: 10px 16px;
+        align-items: center;
+        justify-content: unset;
+    }
+    .benefit-list .benefit-row {
+        flex-direction: column;
+        width: 328px;
+        height: 554px;
+        justify-items: unset;
+    }
+    .benefits-item .item-content {
+        width: 18rem;
+    }
+    .banner-section .container {
+        padding: 0px 16px 80px;
+        height: 500px;
+        justify-content: unset;
+    }
+    .container .banner-section-content,
+    .banner-section-content .banner-left {
+        width: 328px
+    }
+    .banner-section-content .banner-left {
+        padding: 27px 30px;
+        align-items: center;
+    }
+    .banner-left .actions,
+    .banner-section-content .banner-right,
+    .banner-section-content .banner-right img {
+        width: 328px;
+    }
+    .banner-left .actions {
+        justify-content: center;
+    }
+    .banner-section-content .banner-right img {
+        height: 209px;
+    }
 }
