@@ -475,13 +475,13 @@
         padding: 0px 0px var(--size-20);
     }
     .banner-play-section .play-button {
-        left: 144px;
-        top: 42px;
+        left: 9rem;
+        top: 2.625rem;
         z-index: 1;
     }
     .banner-play-section img {
-        width: 358px;
-        height: 154px;
+        width: 22.375rem;
+        height: 9.625rem;
     }
     .hubspot .container {
         width: unset;
@@ -490,35 +490,70 @@
         gap: unset;
     }
     .hub-left {
-        width: 360px;
-        height: 382px;
+        width: 22.5rem;
+        height: 23.875rem;
     }
     .hub-left img:nth-child(1) {
-        width: 262px;
-        height: 300px;
-        left: 65px;
+        width: 16.375rem;
+        height: 18.75rem;
+        left: 4.0625rem;
     }
     .hub-left img:nth-child(2) {
-        width: 141px;
-        height: 261px;
-        left: 28px;
-        top: 78px;
+        width: 8.8125rem;
+        height: 16.3125rem;
+        left: 1.75rem;
+        top: 4.875rem;
     }
     .hubspot .hub-right {
         width: unset;
-        height: 316px;
+        height: 19.75rem;
     }
     .hub-right .description {
         width: unset;
-        padding: 0px 16px;
+        padding: 0px var(--size-16);
     }
     .hub-right .person {
-        padding: 0px 20px 0px 0px;
+        padding: 0px var(--size-20) 0px 0px;
         align-items: center;
-        width: 147px;
+        width: 9.1875rem;
     }
     .person h4 {
-        font-size: 18px;
-        line-height: 22px;
+        font-size: var(--size-18);
+        line-height: 1.375rem;
+    }
+    .brand-section .container {
+        padding: var(--size-40) 0px 3.75rem;
+        height: 25rem;
+    }
+    .brand-section .brand-list {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: unset;
+        height: unset;
+        gap: var(--size-20);
+    }
+    .brand-section .brand-list img {
+        width: 6rem;
+        height: unset;
+    }
+    .pricing-section .container {
+        width: unset;
+    }
+    .pricing-section .pricing-title {
+        width: 22.5rem;
+    }
+    .pricing-section .plans-feature-list {
+        width: 22.5rem;
+        padding: 0rem var(--size-16);
+    }
+    .plans-feature-list .plan {
+        width: 20.5rem;
+    }
+    .plan .plan-header {
+        width: 15.5rem;
+    }
+    .plan .plan-divider {
+        width: 15.5rem;
     }
 }
