@@ -483,4 +483,42 @@
         width: 358px;
         height: 154px;
     }
+    .hubspot .container {
+        width: unset;
+        padding: 0px;
+        align-items: flex-start;
+        gap: unset;
+    }
+    .hub-left {
+        width: 360px;
+        height: 382px;
+    }
+    .hub-left img:nth-child(1) {
+        width: 262px;
+        height: 300px;
+        left: 65px;
+    }
+    .hub-left img:nth-child(2) {
+        width: 141px;
+        height: 261px;
+        left: 28px;
+        top: 78px;
+    }
+    .hubspot .hub-right {
+        width: unset;
+        height: 316px;
+    }
+    .hub-right .description {
+        width: unset;
+        padding: 0px 16px;
+    }
+    .hub-right .person {
+        padding: 0px 20px 0px 0px;
+        align-items: center;
+        width: 147px;
+    }
+    .person h4 {
+        font-size: 18px;
+        line-height: 22px;
+    }
 }
