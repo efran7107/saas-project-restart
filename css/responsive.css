@@ -1,9 +1,9 @@
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 48rem) {
     .container {
-        width: 48rem;
+        width: 768px;
     }
     .header .container {
-        height: 46.875rem;
+        height: 750px;
     }
     [aria-controls="navbarDropdown"] {
         display: block;
@@ -14,21 +14,21 @@
     }
     [aria-expanded="true"]~.navbar {
         background-color: var(--white);
-        border-bottom: .0625rem solid #677788;
-        width: 46.0625rem;
-        height: 5.375rem;
+        border-bottom: 1px solid #677788;
+        width: 737px;
+        height: 86px;
     }
     [aria-expanded="true"]~.nav {
         position: absolute;
-        top: 0rem;
-        left: 0rem;
-        width: 47rem;
-        height: 52.25rem;
+        top: 0px;
+        left: 0px;
+        width: 752px;
+        height: 836px;
         display: flex;
         flex-direction: column;
         align-items: center;
-        padding: 9.6875rem .375rem .875rem;
-        gap: 4.5625rem;
+        padding: 155px 6px 14px;
+        gap: 73px;
         background: var(--white);
         z-index: -1;
     }
@@ -37,28 +37,28 @@
         color: var(--font-color-dark);
     }
     [aria-expanded="true"]~.header-divider {
-        height: .0625rem;
-        width: 46.0625rem;
+        height: 1px;
+        width: 737px;
         background-color: #e7e7e7;
         position: absolute;
-        bottom: 0rem;
-        left: -0.875rem;
+        bottom: 0px;
+        left: -14px;
     }
     .top-section-content .navbar {
         z-index: 5;
         flex-direction: row-reverse;
-        width: 47rem;
-        height: 5.375rem;
+        width: 752px;
+        height: 86px;
         position: relative;
     }
     .hero-section .hero-left,
     .hero-section .hero-right {
-        width: 44.5rem;
+        width: 712px;
     }
     .top-section-content .hero-section {
         flex-direction: column;
-        width: 44.25rem;
-        height: 41.5rem;
+        width: 708px;
+        height: 664px;
     }
     .hero-section .hero-left {
         justify-content: unset;
@@ -68,73 +68,73 @@
         text-align: center;
     }
     .asana {
-        left: 33.3125rem;
-        top: 0rem;
+        left: 533px;
+        top: 0px;
     }
     .calendar {
-        left: 32.3125rem;
-        top: 14.3125rem;
+        left: 517px;
+        top: 229px;
     }
     .weave {
-        left: 25.875rem;
-        top: 6.1875rem;
+        left: 414px;
+        top: 99px;
     }
     .paypal {
-        left: 7rem;
-        top: 6.1875rem;
+        left: 112px;
+        top: 99px;
     }
     .atlassian {
-        left: 17.9375rem;
-        top: 0rem;
+        left: 287px;
+        top: 0px;
     }
     .google-ads {
-        left: 14.375rem;
-        top: 13.0625rem;
+        left: 230px;
+        top: 209px;
     }
     .google {
-        left: 6.875rem;
-        top: 0rem;
+        left: 110px;
+        top: 0px;
     }
     .top-section-background,
     .top-section-background .background-gradient {
-        width: 48rem;
+        width: 768px;
     }
     .top-section-background .background-gradient {
-        border-right: 5.625rem solid #E1E7EF;
+        border-right: 90px solid #E1E7EF;
     }
     .top-section-background .right-border {
-        right: 5.5rem;
-        border-right: 8.125rem solid #e1e7ef;
-        border-top: 27.75rem solid transparent;
+        right: 88px;
+        border-right: 130px solid #e1e7ef;
+        border-top: 444px solid transparent;
     }
     .top-section-background .bottom-border {
-        border-left: 48rem solid transparent;
+        border-left: 768px solid transparent;
     }
     .key-benefits-section .container {
-        padding: 80px 0px;
+        padding: 5rem 0rem;
     }
     .key-benefits-section .benefit-list {
         flex-direction: column;
-        height: 574px;
+        height: 35.875rem;
     }
     .benefit-list .benefit-row {
-        padding: 0px;
-        width: 708px;
-        height: 262px;
+        padding: 0rem;
+        width: 44.25rem;
+        height: 16.375rem;
     }
     .benefit-row .benefits-item {
-        height: 15.125rem;
-        width: 339px;
+        height: 242px;
+        width: 21.1875rem;
     }
     .benefits-item .item-content {
-        width: 299px;
-        height: 222px;
+        width: 18.6875rem;
+        height: 13.875rem;
     }
     .container .banner-section-content,
     .banner-section-content .banner-left,
     .banner-section-content .banner-right,
     .banner-section-content .banner-right img {
-        width: 44.25rem;
+        width: 708px;
     }
     .container .banner-section-content {
         flex-direction: column;
@@ -147,96 +147,96 @@
         justify-content: end;
     }
     .why-front .why-front-title {
-        width: 600px;
+        width: 37.5rem;
     }
     .why-front .bullet-list {
-        width: 768px;
+        width: 48rem;
     }
     .bullet-list .bullet {
-        width: 175px;
+        width: 10.9375rem;
     }
     .title h6,
     .bullet:nth-child(3) .title h6 {
         font-weight: 500;
     }
     .bullet:nth-child(3) .title h6 {
-        letter-spacing: -0.0625rem;
+        letter-spacing: -1px;
     }
     .bullet .top {
-        width: 10.9375rem;
+        width: 175px;
     }
     .top:before,
     .top:after {
-        width: 3.6563rem;
+        width: 58.5008px;
     }
     .first:before .last:after {
         display: none;
         content: none;
     }
     .banner-play-section .container {
-        height: 22.75rem;
-        width: 48rem;
+        height: 364px;
+        width: 768px;
     }
     .banner-play-section .banner-frame {
-        width: 708px;
-        height: 364px;
+        width: 44.25rem;
+        height: 22.75rem;
     }
     .banner-play-section .play-button {
-        left: 19.9375rem;
-        top: 7.8125rem;
+        left: 319px;
+        top: 125px;
     }
     .banner-play-section img {
-        width: 44.25rem;
-        height: 19rem;
+        width: 708px;
+        height: 304px;
     }
     .hubspot .container {
         flex-direction: column;
-        padding: 0px 0px 2.5rem;
+        padding: 0rem 0rem 40px;
         align-items: center;
     }
     .hubspot .hub-right {
-        padding: 0rem;
+        padding: 0px;
         align-items: center;
-        width: 48rem;
-        height: 15.75rem;
+        width: 768px;
+        height: 252px;
     }
     .hub-right .description {
         align-items: center;
         justify-content: center;
-        width: 37.5rem;
+        width: 600px;
     }
     .hub-right .description p {
         text-align: center;
     }
     .brand-section .container {
-        padding: var(--size-40) 0rem;
-        height: 13rem;
+        padding: var(--size-40) 0px;
+        height: 208px;
     }
     .brand-section .brand-list {
-        width: 48rem;
-        height: 3.6875rem;
+        width: 768px;
+        height: 59px;
     }
     .brand-section .brand-list img {
-        width: 3.875rem;
-        height: 1.6875rem;
+        width: 62px;
+        height: 27px;
     }
     .pricing-section .container,
     .pricing-section .pricing-title {
-        width: 48rem;
+        width: 768px;
     }
     .pricing-section .container {
-        padding: 0rem 0rem 3.75rem;
+        padding: 0px 0px 60px;
     }
     .pricing-section .plans-feature-list {
         flex-direction: column;
     }
     .plans-feature-list .plan {
-        width: 42.5rem;
+        width: 680px;
         align-items: center;
     }
     .plan .plan-header,
     .plan .plan-divider {
-        width: 37.5rem;
+        width: 600px;
     }
     .plan .plan-header {
         justify-content: center;
@@ -246,27 +246,27 @@
         display: flex;
         flex-direction: column;
         align-items: flex-start;
-        padding: 0px;
+        padding: 0rem;
         gap: var(--size-10);
-        width: 680px;
+        width: 42.5rem;
     }
     .plan-features .plan-feature-item {
-        width: 20.9375rem;
+        width: 335px;
     }
     .hire-us-scn .container {
         flex-direction: column;
-        height: 57.75rem;
+        height: 924px;
     }
     .hire-us-scn .hire-lt {
         flex-direction: row;
         align-items: center;
         padding: var(--size-40) var(--size-30) var(--size-20);
-        width: 48rem;
+        width: 768px;
     }
     .hire-lt .hire-tp,
     .hire-us-titl .titl,
     .hire-us-titl .div {
-        width: 24.75rem;
+        width: 396px;
     }
     .hire-us-titl .titl {
         justify-content: center;
@@ -275,189 +275,190 @@
         gap: var(--size-30);
     }
     .hire-rt .form {
-        width: 44.25rem;
+        width: 708px;
     }
     .form-group input,
     .form-group select {
-        width: 19.625rem;
+        width: 314px;
     }
     .form-data .text-area {
-        width: 40.5rem;
+        width: 648px;
     }
     .top-footer .company-resources {
         flex-direction: column;
     }
     .company-resources .resource-top {
-        gap: 5rem;
-        width: 26.0625rem;
+        gap: 80px;
+        width: 417px;
     }
     .company-resources .resource-bottom {
-        width: 19rem;
+        width: 304px;
     }
     .footer-main .footer-div {
-        width: 44.25rem;
+        width: 708px;
     }
     .bottom-footer .social-links {
-        width: 44.25rem;
-        gap: 5rem;
+        width: 708px;
+        gap: 80px;
         height: var(--size-30);
     }
 }
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 22.5rem) {
     .container {
-        max-width: 22.5rem;
+        max-width: 360px;
         position: relative;
     }
     .header .container {
-        height: 44.0625rem;
+        height: 705px;
     }
     .container .top-section-content,
     .top-section-content .navbar,
     .top-section-content .hero-section {
-        width: 20.625rem;
+        width: 330px;
     }
     [aria-expanded="true"]~.nav {
-        width: 21.5625rem;
+        width: 345px;
+        height: 42.5rem;
     }
     [aria-expanded="true"]~.nav ul {
         flex-direction: column;
         align-items: center;
     }
     [aria-expanded="true"]~.header-divider {
-        width: 22.5rem;
+        width: 360px;
     }
     .top-section-content .hero-section {
-        padding: 2.5rem 1rem 0rem;
+        padding: 40px 16px 0px;
     }
     .hero-section .hero-left,
     .hero-section .hero-right {
-        width: 18.625rem;
+        width: 298px;
     }
     .hero-left .title {
-        width: 18.6875rem;
+        width: 299px;
         text-align: center;
     }
     .hero-left .title h1 {
-        font-size: 1.625rem;
+        font-size: 26px;
     }
     .asana {
-        left: 240px;
+        left: 15rem;
     }
     .calendar {
-        left: 14.9375rem;
-        top: 13.6875rem;
+        left: 239px;
+        top: 219px;
     }
     .weave {
-        left: 184px;
+        left: 11.5rem;
     }
     .paypal {
-        left: 0px;
-        top: 99px;
+        left: 0rem;
+        top: 6.1875rem;
     }
     .atlassian {
-        left: 114px;
-        top: 0px;
+        left: 7.125rem;
+        top: 0rem;
     }
     .google-ads {
-        left: 106px;
-        top: 209px;
+        left: 6.625rem;
+        top: 13.0625rem;
     }
     .google {
-        left: 0px
+        left: 0rem
     }
     .top-section-background {
-        width: 360px;
+        width: 22.5rem;
     }
     .top-section-background .background-gradient {
-        width: 360px;
-        border-right: 56px solid #E1E7EF;
+        width: 22.5rem;
+        border-right: 3.5rem solid #E1E7EF;
     }
     .top-section-background .right-border {
-        right: 56px;
-        border-top: 458px solid transparent;
-        border-right: 45px solid #e1e7ef;
+        right: 3.5rem;
+        border-top: 28.625rem solid transparent;
+        border-right: 2.8125rem solid #e1e7ef;
     }
     .top-section-background .bottom-border {
-        border-left: 360px solid transparent;
-        border-bottom: 89px solid var(--white);
+        border-left: 22.5rem solid transparent;
+        border-bottom: 5.5625rem solid var(--white);
     }
     .key-benefits-section .container {
-        height: 1367px;
-        gap: 40px;
-        padding: 40px 0px;
+        height: 85.4375rem;
+        gap: 2.5rem;
+        padding: 2.5rem 0rem;
     }
     .benefits-title {
         text-align: center;
     }
     .benefits-title p,
     .benefit-row .benefits-item {
-        width: 328px;
+        width: 20.5rem;
     }
     .benefit-row .benefits-item {
-        height: 16.375rem;
+        height: 262px;
     }
     .key-benefits-section .benefit-list {
-        width: 360px;
-        height: 1158px;
-        padding: 10px 16px;
+        width: 22.5rem;
+        height: 72.375rem;
+        padding: .625rem 1rem;
         align-items: center;
         justify-content: unset;
     }
     .benefit-list .benefit-row {
         flex-direction: column;
-        width: 328px;
-        height: 554px;
+        width: 20.5rem;
+        height: 34.625rem;
         justify-items: unset;
     }
     .benefits-item .item-content {
-        width: 18rem;
+        width: 288px;
     }
     .banner-section .container {
-        padding: 0px 16px 80px;
-        height: 500px;
+        padding: 0rem 1rem 5rem;
+        height: 31.25rem;
         justify-content: unset;
     }
     .container .banner-section-content,
     .banner-section-content .banner-left {
-        width: 328px
+        width: 20.5rem
     }
     .banner-section-content .banner-left {
-        padding: 27px 30px;
+        padding: 1.6875rem 1.875rem;
         align-items: center;
     }
     .banner-left .actions,
     .banner-section-content .banner-right,
     .banner-section-content .banner-right img {
-        width: 328px;
+        width: 20.5rem;
     }
     .banner-left .actions {
         justify-content: center;
     }
     .banner-section-content .banner-right img {
-        height: 209px;
+        height: 13.0625rem;
     }
     .why-front .container {
-        padding: 0px 0px 3.75rem;
+        padding: 0rem 0rem 60px;
     }
     .why-front .why-front-title {
-        padding: 0px 1rem;
-        width: 22.5rem;
+        padding: 0rem 16px;
+        width: 360px;
     }
     .why-front .why-front-title p {
-        width: 20.5rem;
-        line-height: 1.5rem;
+        width: 328px;
+        line-height: 24px;
         font-size: var(--size-16);
     }
     .why-front .bullet-list {
         flex-direction: column;
-        gap: 1.0625rem;
-        width: 22.5rem;
+        gap: 17px;
+        width: 360px;
     }
     .bullet-list .bullet {
         width: unset;
         flex-direction: row;
-        padding: 0px;
+        padding: 0rem;
     }
     .top:before,
     .top:after {
@@ -467,63 +468,67 @@
         width: var(--size-50);
     }
     .bullet .title {
-        padding: 0px var(--size-10);
+        padding: 0rem var(--size-10);
     }
     .banner-play-section .container {
         width: unset;
-        height: 12.3125rem;
-        padding: 0px 0px var(--size-20);
+        height: 197px;
+        padding: 0rem 0rem var(--size-20);
+    }
+    .banner-play-section .banner-frame {
+        width: 358px;
+        height: 154px;
     }
     .banner-play-section .play-button {
-        left: 9rem;
-        top: 2.625rem;
+        left: 144px;
+        top: 42px;
         z-index: 1;
     }
     .banner-play-section img {
-        width: 22.375rem;
-        height: 9.625rem;
+        width: 358px;
+        height: 154px;
     }
     .hubspot .container {
         width: unset;
-        padding: 0px;
+        padding: 0rem;
         align-items: flex-start;
         gap: unset;
     }
     .hub-left {
-        width: 22.5rem;
-        height: 23.875rem;
+        width: 360px;
+        height: 382px;
     }
     .hub-left img:nth-child(1) {
-        width: 16.375rem;
-        height: 18.75rem;
-        left: 4.0625rem;
+        width: 262px;
+        height: 300px;
+        left: 65px;
     }
     .hub-left img:nth-child(2) {
-        width: 8.8125rem;
-        height: 16.3125rem;
-        left: 1.75rem;
-        top: 4.875rem;
+        width: 141px;
+        height: 261px;
+        left: 28px;
+        top: 78px;
     }
     .hubspot .hub-right {
         width: unset;
-        height: 19.75rem;
+        height: 316px;
     }
     .hub-right .description {
         width: unset;
-        padding: 0px var(--size-16);
+        padding: 0rem var(--size-16);
     }
     .hub-right .person {
-        padding: 0px var(--size-20) 0px 0px;
+        padding: 0rem var(--size-20) 0rem 0rem;
         align-items: center;
-        width: 9.1875rem;
+        width: 147px;
     }
     .person h4 {
         font-size: var(--size-18);
-        line-height: 1.375rem;
+        line-height: 22px;
     }
     .brand-section .container {
-        padding: var(--size-40) 0px 3.75rem;
-        height: 25rem;
+        padding: var(--size-40) 0rem 60px;
+        height: 400px;
     }
     .brand-section .brand-list {
         flex-direction: column;
@@ -534,34 +539,37 @@
         gap: var(--size-20);
     }
     .brand-section .brand-list img {
-        width: 6rem;
+        width: 96px;
         height: unset;
     }
     .pricing-section .container {
         width: unset;
     }
     .pricing-section .pricing-title {
-        width: 22.5rem;
+        width: 360px;
     }
     .pricing-section .plans-feature-list {
-        width: 22.5rem;
-        padding: 0rem var(--size-16);
+        width: 360px;
+        padding: 0px var(--size-16);
     }
     .plans-feature-list .plan {
+        width: 328px;
+    }
+    .plans-feature-list .plan-features {
         width: 20.5rem;
     }
     .plan .plan-header {
-        width: 15.5rem;
+        width: 248px;
     }
     .plan .plan-divider {
-        width: 15.5rem;
+        width: 248px;
     }
     .plan-features .plan-row-1,
     .plan-features .plan-row-2 {
         flex-direction: column;
     }
     .plan-features .plan-feature-item {
-        padding: var(--size-20) 0px;
+        padding: var(--size-20) 0rem;
     }
     .hire-us-scn .container {
         height: unset;
@@ -570,19 +578,19 @@
         padding: var(--size-40) var(--size-16) var(--size-20);
         width: unset;
         flex-direction: column;
-        height: 28.5625rem;
+        height: 457px;
     }
     .hire-lt .hire-tp,
     .hire-us-titl .titl,
     .hire-us-titl .div,
     .hire-us-titl {
-        width: 20.625rem;
+        width: 330px;
     }
     .hire-us-titl .titl {
         align-items: center;
     }
     .hire-div {
-        width: 20.625rem;
+        width: 330px;
     }
     .hire-phrs {
         text-align: center;
@@ -596,25 +604,83 @@
         height: unset;
     }
     .hire-rt .form {
-        width: 20.625rem;
-        height: 55.25rem;
+        width: 330px;
+        height: 884px;
     }
     .form .form-data {
-        width: 16.875rem;
-        height: 46.375rem;
+        width: 270px;
+        height: 742px;
     }
     .form-group,
     .text-area {
         flex-direction: column;
     }
     .form-data .text-area {
-        width: 16.875rem;
+        width: 270px;
     }
     .form-group input,
     .form-group select {
-        width: 16.875rem;
+        width: 270px;
     }
     .private-policy a:nth-child(2) {
         display: none;
+    }
+    .footer-main .container {
+        padding: 5rem 1rem 2.5rem;
+        width: unset;
+    }
+    .footer-main .top-footer {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .top-footer .company-info {
+        align-items: center;
+        justify-content: center;
+    }
+    .company-info .address-phone {
+        align-items: center;
+        justify-content: center;
+    }
+    .address-phone a {
+        justify-content: center;
+    }
+    .company-resources .resource-top,
+    .company-resources .resource-bottom {
+        flex-direction: column;
+        width: 20.5rem;
+        justify-content: center;
+        align-items: center;
+        gap: 1.875rem;
+    }
+    .company-resources .resource-list {
+        align-items: center;
+        justify-content: center;
+    }
+    .resource-list ul {
+        align-items: center;
+    }
+    .footer-main .footer-div {
+        width: 328px;
+    }
+    .bottom-footer .social-links {
+        justify-content: center;
+        width: 20.5rem;
+        flex-direction: column;
+        height: unset;
+        gap: 1.875rem;
+    }
+    .social-links .social-list {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .all-rights {
+        width: 20.5rem;
+    }
+    .all-rights p:nth-child(1) {
+        text-align: center;
+    }
+    .all-rights p:nth-child(2) {
+        width: unset;
     }
 }
