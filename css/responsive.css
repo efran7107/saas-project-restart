@@ -437,4 +437,36 @@
     .banner-section-content .banner-right img {
         height: 209px;
     }
+    .why-front .container {
+        padding: 0px 0px 3.75rem;
+    }
+    .why-front .why-front-title {
+        padding: 0px 1rem;
+        width: 22.5rem;
+    }
+    .why-front .why-front-title p {
+        width: 20.5rem;
+        line-height: 1.5rem;
+        font-size: var(--size-16);
+    }
+    .why-front .bullet-list {
+        flex-direction: column;
+        gap: 1.0625rem;
+        width: 22.5rem;
+    }
+    .bullet-list .bullet {
+        width: unset;
+        flex-direction: row;
+        padding: 0px;
+    }
+    .top:before,
+    .top:after {
+        display: none;
+    }
+    .bullet .top {
+        width: var(--size-50);
+    }
+    .bullet .title {
+        padding: 0px var(--size-10);
+    }
 }
