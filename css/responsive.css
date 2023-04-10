@@ -469,4 +469,18 @@
     .bullet .title {
         padding: 0px var(--size-10);
     }
+    .banner-play-section .container {
+        width: unset;
+        height: 12.3125rem;
+        padding: 0px 0px var(--size-20);
+    }
+    .banner-play-section .play-button {
+        left: 144px;
+        top: 42px;
+        z-index: 1;
+    }
+    .banner-play-section img {
+        width: 358px;
+        height: 154px;
+    }
 }

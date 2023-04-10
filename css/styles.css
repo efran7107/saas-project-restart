@@ -23,7 +23,7 @@
     pointer-events: none;
 }
 
-[aria-controls="navbarDropdown"]{
+[aria-controls="navbarDropdown"] {
     display: none;
 }
 
@@ -68,6 +68,8 @@
     font-weight: 700;
     line-height: 15px;
 }
+
+
 /* 
 .navbar .header-divider {
     display: none;
@@ -477,6 +479,7 @@
 }
 
 .banner-frame img {
+    position: absolute;
     width: 60.25rem;
     height: 25.875rem;
     left: 0rem;
@@ -1032,7 +1035,7 @@
 }
 
 .top-footer a:hover {
-    color: var(--font-color-link) ;
+    color: var(--font-color-link);
 }
 
 .resource-top,
@@ -1043,7 +1046,6 @@
 
 .top-footer .company-resources {
     gap: 3.0625rem;
-    
 }
 
 .resource-list h6 {
@@ -1146,7 +1148,7 @@
     padding: 5px 13px;
     gap: 20px;
     width: 168px;
-    text-align-last:center;
+    text-align-last: center;
     font-size: 14px;
     line-height: 16px;
     font-weight: 400;
